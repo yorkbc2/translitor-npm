@@ -1,7 +1,7 @@
 {
-  "name": "my-first-pkg",
+  "name": "translit-npm",
   "version": "0.1.0",
-  "description": "My first pkg in npm ",
+  "description": "Translit every char to russian !",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec"
