@@ -1,0 +1,15 @@
+{
+  "name": "my-first-pkg",
+  "version": "0.1.0",
+  "description": "My first pkg in npm ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "author": "alexyorke <yorkbc2@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}

@@ -1,0 +1,5 @@
+test
+tests/
+tests/*.js
+*.log
+node_modules/
