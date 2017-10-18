@@ -36,3 +36,27 @@ var string = translit.translitFromRussian('Я хочу быть человеко
 
 
 ```
+
+### .translitFromEnglish(String englishString)
+
+Этот метод транслитит англ. текст в русский, например:
+
+```js
+
+var string = translit.translitFromEnglish('...');
+
+```
+
+### .translitForUrl(String russianString)
+
+Этот метод не только транслитит русский текст в английский, а также делает из неё URL.
+
+```js
+
+
+var string = translit.translitForUrl('Я хочу быть человеком!')
+
+// Output: ya-hochu-bit-chelovekom
+
+
+```
